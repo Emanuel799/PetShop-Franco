@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="one">
+                <img src="img/logo.jpg" alt="" class="logo">
+                <h1><a href="index.html">PetShop Franco</a></h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contactenos.html">Contáctenos</a>
+                <a href="farmacia.html">Farmacia</a>
+                <a href="juguetes.html">Juguetería</a>
+            </nav>
+        </header>
+        <main>
+            <div class="formulario">
+                <form action="">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" pattern="\([0-9]{3}\) [0-9]{7}" placeholder="(código de área sin el 0) Número">
+                    <label for="mascotas">¿Tiene mascotas?</label>
+                    <label for="perros">Perros</label>
+                    <input type="checkbox" id="perros">
+                    <label for="gatos">Gatos</label>
+                    <input type="checkbox" id="gatos">
+                    <label for="otro">Otro</label>
+                    <input type="text" id="otro">
+                    <label for="texto">Deje aquí sus comentarios</label>
+                    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                    <button id="button">Enviar</button>
+                </form>
+            </div>    
+                <div class="maps">
+                    <h3>- Dónde nos encontramos -</h3>
+                    <p>- Río de Janeiro 300 (Caballito , CABA) -<p>
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1697888.0099094552!2d-60.697765528546086!3d-33.7816554385334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-32.959776399999996!2d-60.6633504!4m5!1s0x95bcca429815227f%3A0x5d302e497c2cda87!2sR%C3%ADo%20de%20Janeiro%20300%2C%20C1405%20CCB%2C%20Buenos%20Aires!3m2!1d-34.6120762!2d-58.4303792!5e0!3m2!1ses-419!2sar!4v1622655176130!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+        </main>
+        <footer><p class="footy"><a class="foot" href="index.html">Petshop Franco</a></p></footer>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

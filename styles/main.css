@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----HEADER----- */
+
+.logo{
+    width:10vw;
+    max-height: 100%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    border-bottom: 1px solid #260101;
+    font-style: italic;
+}
+
+.one{
+    display: flex;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #260101;
+}
+
+nav {
+    display: flex;
+    align-items:center;
+}
+
+nav > a {
+    background-color: #F25E3D;
+    color:#260101;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+/* ----MAIN---- */
+main {
+    background-color: white;
+    height: 75vh;
+    overflow: auto;
+    background-image: url("../img/wallpaper.jpg");
+    /* background-size: cover; */
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome {
+    background-color: white;
+    width: 60vw;
+    margin: 1rem;
+    padding: 1rem;
+    font-style: oblique;
+    border: 1px solid #260101;
+    border-radius: 2%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    color:#260101;
+    z-index:1;
+}
+
+.welcome p {
+    color: blue;
+    z-index:10;
+}
+
+/* ----IMAGES---- */
+.catAndDog {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.dog {
+    width: 30vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.cat {
+    width: 30vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+/* img{
+     width: 30vw; 
+    margin: 1rem;
+} */
+
+#farmImg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#toyImg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ordenarTablas {
+    background-color: #F2F2F2;
+    height: 65vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 3.5rem;
+}
+
+.ordenarTablas img {
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 3%
+}
+
+.parrafos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafos p {
+    margin: 0.2rem;
+}
+
+.last {
+    color: red;
+}
+
+/* ----CONTACTO---- */
+.formulario {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #F2F2F2;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid #260101
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #260101;
+}
+ 
+input[type="tel"] {
+    width: 100%;
+    border: 1px solid #260101 ;
+} 
+
+textarea {
+    width:100%;
+    border: 1px solid #260101;
+}
+
+button {
+    margin: 0.2rem;
+    width: 100%;
+}
+
+label {
+    margin: 0.2rem;
+}
+
+/* ----IFRAME----- */
+.maps {
+    /* width: 50vw; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    border-top: 1px solid #260101;
+}
+
+h3 {
+    background-color: #F2F2F2;
+    margin-bottom: 1rem;
+}
+
+.maps p {
+    margin-bottom: 0.5rem;
+    background-color: #F2F2F2;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+/* ----FOOTER---- */
+
+footer {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+.footy {
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+    text-decoration: none;
+}
+
+a.foot {
+    color: #A6372D;
+}
